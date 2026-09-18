@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hotspot_control">Local hotspot</string>
+    <string name="app_name" translatable="false">SAP</string>
+    <string name="app_license" translatable="false">GPLv3</string>
+    <string name="section_status">Status</string>
+    <string name="section_settings">Settings</string>
+    <string name="connected_devices">Connected devices</string>
+    <string name="section_permissions">Permissions</string>
+    <string name="section_about">About</string>
+    <string name="hotspot_off" translatable="false">Off</string>
+    <string name="state_unsupported" translatable="false">Not supported on this device</string>
+    <string name="state_starting" translatable="false">Starting</string>
+    <string name="hotspot_on" translatable="false">On</string>
+    <string name="state_stopping" translatable="false">Stopping</string>
+    <string name="state_unknown" translatable="false">Checking connection</string>
+    <string name="state_working" translatable="false">Managing local hotspot</string>
+    <string name="password">Password</string>
+    <string name="copy_ssid">Copy SSID</string>
+    <string name="copy_password">Copy password</string>
+    <string name="show_password">Show password</string>
+    <string name="hide_password">Hide password</string>
+    <string name="band">Band</string>
+    <string name="band_2" translatable="false">2.4 GHz</string>
+    <string name="band_5" translatable="false">5 GHz</string>
+    <string name="local_address">Local address</string>
+    <string name="unknown">Unknown</string>
+    <string name="auto_close">Turn off AP automatically</string>
+    <string name="auto_close_hint">When no devices are connected</string>
+    <string name="timeout_field_label">0 disables</string>
+    <string name="minutes_unit">min</string>
+    <string name="permission_nearby">Nearby devices</string>
+    <string name="permission_notifications">Notifications</string>
+    <string name="allowed">Allowed</string>
+    <string name="not_allowed">Not allowed</string>
+    <string name="version">Version</string>
+    <string name="license">License</string>
+    <string name="action_stop">Turn off</string>
+    <string name="notification_no_devices" translatable="false">%1$s · No devices</string>
+    <plurals name="notification_devices" translatable="false">
+        <item quantity="one">%1$s · %2$d device</item>
+        <item quantity="other">%1$s · %2$d devices</item>
+    </plurals>
+    <string name="nearby_required">Allow the Nearby devices permission first</string>
+    <string name="unsupported">Wi-Fi Direct is not supported on this device</string>
+    <string name="wifi_unavailable">Wi-Fi is unavailable</string>
+    <string name="invalid_ssid">The complete SSID must be at most 32 UTF-8 bytes</string>
+    <string name="invalid_password">Use 8–63 printable ASCII characters for the password</string>
+    <string name="invalid_both">The SSID is too long and the password must be 8–63 ASCII characters</string>
+    <string name="ssid">SSID</string>
+    <string name="ssid_characters">The network name cannot contain line breaks or control characters</string>
+    <string name="password_characters">Use printable ASCII characters for the password</string>
+    <string name="settings_failed">Unable to read or save settings</string>
+    <string name="connection_lost">Connection to the Wi-Fi Direct service was lost</string>
+    <string name="query_failed">Unable to get local Wi-Fi status</string>
+    <string name="group_stopped">Local Wi-Fi has stopped</string>
+    <string name="other_group">Another Wi-Fi Direct connection is in use</string>
+    <string name="start_busy">Unable to start while Wi-Fi is busy</string>
+    <string name="start_error">Unable to start due to a system error</string>
+    <string name="start_failed_code">Unable to start (error code %1$d)</string>
+    <string name="start_timeout">Start timed out</string>
+    <string name="start_unknown">Unable to start local Wi-Fi</string>
+    <string name="stop_failed">Unable to confirm whether local Wi-Fi is off</string>
+    <string name="auto_closed">Turned off because no devices were connected</string>
+    <string name="service_failed">Unable to start the service</string>
+    <string name="retry">Retry</string>
+    <string name="ip_label" translatable="false">IP</string>
+    <string name="mac_label" translatable="false">MAC</string>
+    <string name="ip_unknown">IP unknown</string>
+    <string name="mac_unknown">MAC unknown</string>
+    <string name="close">Close</string>
+    <string name="start_requires_stop">Turn off local Wi-Fi before starting it again</string>
+</resources>

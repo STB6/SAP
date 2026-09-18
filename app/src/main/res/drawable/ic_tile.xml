@@ -1,0 +1,4 @@
+<inset xmlns:android="http://schemas.android.com/apk/res/android"
+    android:drawable="@drawable/ic_launcher_monochrome"
+    android:insetLeft="-75%" android:insetTop="-75%"
+    android:insetRight="-75%" android:insetBottom="-75%" />
